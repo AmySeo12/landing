@@ -1,0 +1,103 @@
+body {
+	font-family: 'Open Sans', 'Courgette'
+}
+.overflow {
+	overflow: auto;
+}
+
+
+/*header*/
+
+header {
+	padding: 20px 0px 10px;
+}
+
+.tamaño {
+	width: 45% !Important;
+}
+
+.text-right {
+	text-align: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+}
+
+/*section*/
+section {
+	background-color: #808080;
+	padding-bottom: 5%;
+}
+
+.text-white {
+	color: white;
+}
+
+.titulo {
+	font-size: 4em;
+}
+
+.parrafo {
+	font-size: 0.7em;
+}
+
+.formulario {
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #9A9A9A;
+	border-radius: 10px;
+	height: auto;
+	margin-top: 20%;
+	padding: 2% 0px;
+}
+.text-center {
+	text-align: center;
+}
+
+.formulario input, .formulario button {
+	width: 100%;
+	height: 30px;
+}
+form {
+	margin: 20px;
+}
+
+button {
+	background-color: #3EB0F7;
+	border: 1px solid #3EB0F7;
+}
+form input {
+	margin-bottom: 2%;
+}
+
+@media (max-width: 535px) {
+	body {
+		padding: 10px;
+	}
+	.col8 p {
+		font-size: 1em;
+	}
+	.formulario {
+		margin-top: 2%;
+		margin-bottom: 15%;
+	}
+	.col8 {
+		padding-bottom: 2%;
+	}
+	.tamaño {
+		min-width: 100%;
+		height: auto;
+	}
+	.col6 {
+		float: left;
+		width: 50%;
+		margin: 0px;
+	}
+}
+/*footer*/
+footer a {
+	text-decoration: none;
+}
